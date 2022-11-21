@@ -36,11 +36,6 @@ print(distance)
 
 //print ("commentariy coda") (uncomment too see a nice outout)
 
-/*
-
- 3) Напишите различные выражения с приведением типа.
- 4) Посоздавайте свои переменные и константы. Имена, возраст, отчества и тд.
-*/
 
 // 1) Напишите переменные и константы всех базовых типов данных: int, UInt, float, double, string. У чисел вывести их минимальные и максимальные значения.
 
@@ -79,4 +74,54 @@ let FloatMax = Float.greatestFiniteMagnitude
 
 
 //2) Создайте список товаров с различными характеристиками (количество, название). Используйте typealias.
+typealias FruitsWeight = Int
+var bananas: FruitsWeight = 5
+var citrus: FruitsWeight = 4
+var pineapples: FruitsWeight = 2
+print ("weight of citrus is - \(citrus)kg")
+print ("weight of bananas is - \(bananas)kg")
+print ("weight of pineapples is - \(pineapples)kg")
+
+typealias VolumeOfTank = Float
+var audi: VolumeOfTank  = 55
+var mercedes: VolumeOfTank = 60
+print ("The Value of Tank Mercedes is - \(mercedes) liters")
+print ("The Value of Tank Audi is - \(audi) liters")
+
+
+
+
+//  3) Напишите различные выражения с приведением типа.
+
+
+typealias Gear = Int
+var manual: Gear = 6
+print (manual)
+
+typealias Gear2 = Int
+var auto: Gear2 = 5
+print(auto)
+
+typealias Rooms = Int
+var flat: Rooms = 4
+print ("number of rooms in the flat is \(flat)")
+
+
+//  4) Посоздавайте свои переменные и константы. Имена, возраст, отчества и тд.
+
+let name = "Olga"
+var surname = "Utkina"
+var age: Int = 29
+var sex = "woman"
+var married = false
+var height: Float = 1.71
+var weight: Double = 61.222
+
+var characteristics: String = "Honda"
+let moto: Bool = true
+var maxSpeed: Int = 299
+var weightEmpty: Float = 167.56
+var weightFull: Float = 178.34
+var typeSportbike: Bool = true
+var price: Float = 33_000
 

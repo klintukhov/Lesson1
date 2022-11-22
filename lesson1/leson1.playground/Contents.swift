@@ -2,21 +2,21 @@ import UIKit
 
 var str = "Hello, playground"
 
-var name1 = "Alex"
+var nameOne = "Alex"
 
-name1 = "Ivan"
+nameOne = "Ivan"
 
-name1
+nameOne
 
-let name2 = "Oleg"
+let nameTwo = "Oleg"
 
-name2
+nameTwo
 
-print (name1)
+print (nameOne)
 
 print ("Grisha")
 
-print (name1 + " " + name2)
+print (nameOne + " " + nameTwo)
 
 var colorGreen = "green"
  colorGreen
@@ -78,9 +78,9 @@ typealias FruitsWeight = Int
 var bananas: FruitsWeight = 5
 var citrus: FruitsWeight = 4
 var pineapples: FruitsWeight = 2
-print ("weight of citrus is - \(citrus)kg")
-print ("weight of bananas is - \(bananas)kg")
-print ("weight of pineapples is - \(pineapples)kg")
+print ("weight of citrus is \(citrus)kg")
+print ("weight of bananas is \(bananas)kg")
+print ("weight of pineapples is \(pineapples)kg")
 
 typealias VolumeOfTank = Float
 var audi: VolumeOfTank  = 55
